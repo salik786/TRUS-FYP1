@@ -1,0 +1,112 @@
+* {
+  font-family: "Rimouski";
+}
+
+section {
+  margin-left: 16vw;
+}
+.contain {
+  width: 30%;
+  background-color: #293251;
+  height: 100vh;
+  display: block;
+  margin: 0 auto;
+
+  border-radius: 10px;
+  /* padding-bottom: 50px;
+  background: linear-gradient(
+      rgba(255, 255, 255, 0.1),
+      rgba(255, 255, 255, 0.5)
+    ),
+    url("sectionback.jpg"); */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.notification {
+  background-color: #f8d7da;
+  display: none;
+}
+
+.notification p {
+  color: #721c24;
+  font-size: 1.2em;
+  margin: 0;
+  text-align: center;
+  padding: 10px 0;
+}
+
+.weather-container {
+  width: 50%;
+  height: 50%;
+  margin-left: 20vw;
+}
+
+.weather-icon {
+  width: 70%;
+  height: 20vh;
+}
+
+.weather-icon img {
+  display: block;
+  margin: 0 auto;
+}
+
+.temperature-value {
+  width: 50%;
+  height: 8vh;
+}
+
+.temperature-value p {
+  padding: 0;
+  margin: 0;
+  color: black;
+  font-size: 4em;
+  text-align: center;
+  cursor: pointer;
+}
+
+.temperature-value p:hover {
+}
+
+.temperature-value span {
+  color: black;
+  text-transform: uppercase;
+  font-size: 0.7em;
+  font-weight: bolder;
+}
+
+.temperature-description {
+}
+
+.temperature-description p {
+  padding: 8px;
+  margin: 0;
+  color: black;
+  text-align: center;
+  font-size: 1.2em;
+  font-weight: bolder;
+}
+
+.location {
+}
+
+.location p {
+  margin: 0;
+  padding: 0;
+  color: black;
+  font-weight: bolder;
+  text-align: center;
+  font-size: 0.8em;
+}
+
+@media (max-width: 768px) {
+  .sidebar {
+    position: static !important;
+    height: auto !important;
+  }
+  .top-navbar {
+    position: static !important;
+  }
+}
